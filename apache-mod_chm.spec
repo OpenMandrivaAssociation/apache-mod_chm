@@ -6,7 +6,7 @@
 Summary:	Mod_chm is a DSO module for the apache Web server
 Name:		apache-%{mod_name}
 Version:	0.3.1
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		System/Servers
 License:	GPL
 URL:		http://sourceforge.net/projects/modchm/
@@ -22,8 +22,6 @@ BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	file
 BuildRequires:	perl
 BuildRequires:	chmlib-devel
-Provides:	apache2-mod_chm
-Obsoletes:	apache2-mod_chm
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
