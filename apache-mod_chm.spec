@@ -23,6 +23,7 @@ BuildRequires:	file
 BuildRequires:	perl
 BuildRequires:	chmlib-devel
 Epoch:		1
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_chm is an apache module that gives you possibility to explore
