@@ -6,7 +6,7 @@
 Summary:	DSO module for the apache Web server
 Name:		apache-%{mod_name}
 Version:	0.3.1
-Release:	%mkrel 13
+Release:	%mkrel 14
 Group:		System/Servers
 License:	GPL
 URL:		http://sourceforge.net/projects/modchm/
