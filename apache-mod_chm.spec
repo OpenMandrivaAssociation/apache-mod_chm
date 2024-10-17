@@ -9,7 +9,7 @@ Version:	0.3.1
 Release:	16
 Group:		System/Servers
 License:	GPL
-URL:		http://sourceforge.net/projects/modchm/
+URL:		https://sourceforge.net/projects/modchm/
 Source0: 	http://prdownloads.sourceforge.net/modchm/%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Requires(pre): rpm-helper
